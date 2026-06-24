@@ -18,45 +18,55 @@
 
 ---
 
-### 🔍 SME Feedback from the Break Through Tech Evaluation Team
+## 📋 BTT Internal Evaluation Notes
+*(This section is for BTT staff only — remove before sharing with students)*
 
-*Challenge Advisor: Please address the following feedback by editing this page. Your AI Studio Coach can help make project adjustments as needed, too. In addition to the grey section above, this section should be removed before sharing the repo with your student team.*
+| Check | Status | Notes |
+|-------|--------|-------|
+| Python Compatibility | GREEN | The tech stack is centered around Python and its popular libraries for machine learning and data analysis. |
+| Data Readiness | YELLOW | Publicly available data suggests some readiness, but datasets from diverse sources may require significant cleaning and integration efforts, potentially occupying a majority of the work period. |
+| Resource Check | GREEN | Utilizes accessible hardware (Google Colab free tier) with no specialized equipment needed. |
+
+**Student Fit Score:** 7/10  
+**Technical Depth Score:** 6/10  
+**Overall Recommendation:** REVISE
+
+**Advisor Feedback Draft:**
+Strength: The project allows students to engage with various ML techniques, broadening their skill set. Actionable Adjustments: 1. Narrow the scope to ensure manageable deliverables within the semester timeline; focus on key features that align closely with the project goals. 2. Define a comprehensive data cleaning strategy and evaluation framework to address ethical considerations in AI deployment. Call to Action: Encourage a revised project plan with streamlined goals for improved execution.
 
 ---
 
-# [Project Title]
+# Founder Intelligence Platform - Combined 2025 (CFRM)
 
-**Company / Org:** [Company / Org Name]  
-**Challenge Advisor:** [Name, Title, Email]  
+**Company / Org:** G&M  
+**Challenge Advisor:** Sam Ogah, samuel.ogah@zicloudtech.com  
 **Program:** Break Through Tech AI Studio - Fall 2026
 
 ---
 
-## 🏢 About [Company / Org Name]
+## 🏢 About G&M
 
-[2-3 sentences about your company: what you do, your industry, etc. You may also choose to specify your specific department or team.]
+G&M is focused on leveraging data and technological innovations to support under-capitalized founders in the entrepreneurial ecosystem. We operate at the intersection of AI technology and social impact, aiming to unlock capital for diverse talent.
 
 ---
 
 ## 🎯 The Challenge
 
 ### Project Summary
-[In 2-3 sentences, describe what you're asking the team to do. Be specific about the type of data, ML techniques, and potential impact.]
-
-> **Example:** "In this project, your team will use customer transaction data and classification algorithms to build a model that predicts which users are likely to churn. This will help our retention team prioritize outreach."
+In this project, you will use data sets from USPTO, Tech Hubs, and ecosystem datasets (LinkedIn, YouTube, Instagram), as well as behavioral frameworks on coachability, entrepreneurial mindset, and grit established in the two separate 2025 SRI and CFRM projects. The project will involve data cleansing and ML techniques to build an intelligence platform that provides an ethical, AI-driven methodology for identifying under-capitalized founders and unlocking capital.
 
 ### Success Criteria
-[What does success look like? Describe evaluation metrics (accuracy, F1 score, etc.) or qualitative outcomes that would make this project valuable to your company.]
+Working web application, risk scoring engine, trajectory output data and model, founder assessment prototype, opportunity heatmaps, executive presentation and documentation, and base Founder Intelligence Platform.
 
 ### Project Milestones
 
 Use these milestones to guide your work. Your team will create a **GitHub Projects board** to track tasks within each milestone.
 
-| Month | Milestone | Key Activities |
-|-------|-----------|----------------|
-| **September** | [e.g., Data Understanding] | [e.g., Explore dataset, handle missing values, document findings] |
-| **October** | [e.g., Model Development] | [e.g., Train baseline model, experiment with approaches, iterate] |
-| **November** | [e.g., Evaluation & Presentation] | [e.g., Finalize model, prepare presentation, document results] |
+| Month       | Milestone                | Key Activities                                                                            |
+|-------------|--------------------------|------------------------------------------------------------------------------------------|
+| **September** | Data Ingestion & EDA   | Data ingestion, cleaning, feature engineering, exploratory data analysis (EDA)         |
+| **October** | Model Development         | Risk prediction models, clustering, segmentation, and explainability                   |
+| **November** | MVP Development          | Dashboard creation, heatmaps, visualizations, testing, and final presentation           |
 
 > **Note for the team:** Please create a GitHub Projects board in this repository to break these milestones into weekly tasks. Go to the **Projects** tab → **New project** → Choose **Board** → Add columns for each month.
 
@@ -64,13 +74,13 @@ Use these milestones to guide your work. Your team will create a **GitHub Projec
 
 ## 📊 Dataset
 
-**Name and Source:** [Dataset name and where it's from]  
-**Format:** [e.g., CSV, JSON, images]  
-**Size:** [Approximate size in MB/GB]  
+**Name and Source:** USPTO, Tech Hubs, LinkedIn, YouTube, Instagram, trajectory analysis from partner organization  
+**Format:** CSV, JSON, Excel  
+**Size:** 1gb to 5gb  
 **Location:** [Link to dataset or instructions for accessing it]
 
 ### Key Details
-- [Brief description of what's in the data]
+- Publicly available data from USPTO, Tech Hubs, LinkedIn, YouTube, and Instagram, with trajectory analysis provided by a partner organization. Data types include numerical, categorical, and text in various formats such as CSV/TSV, JSON, Excel, and database exports.
 - [Any known limitations or preprocessing needed]
 - [Link to data dictionary or documentation, if available]
 
@@ -78,13 +88,24 @@ Use these milestones to guide your work. Your team will create a **GitHub Projec
 
 ## 🛠️ Suggested Approach
 
-**ML Problem Type:** [e.g., Classification, Regression, NLP, Computer Vision, LLM/RAG]
+**ML Problem Type:** Classification, Clustering, Recommendation Systems, Natural Language Processing (NLP), Computer Vision, Time Series Analysis, Deep Learning / Neural Networks, Large Language Models (LLMs)/ Generative AI
 
 **Recommended Libraries:**
-- [e.g., pandas, scikit-learn, TensorFlow, Hugging Face]
+- Classification
+- Clustering
+- Recommendation Systems
+- Natural Language Processing (NLP)
+- Computer Vision
+- Time Series Analysis
+- Deep Learning / Neural Networks
+- Large Language Models (LLMs)/ Generative AI
+- Supervised learning
+- Geo location
+- Reverse geo-coding
+- Heat mapping
 
 **Evaluation Metrics:**
-- [e.g., Accuracy, Precision/Recall, RMSE, BLEU score]
+- Accuracy, Precision/Recall, RMSE, BLEU score
 
 ---
 
@@ -93,16 +114,16 @@ Use these milestones to guide your work. Your team will create a **GitHub Projec
 The following resources will help your team understand the problem space and potential technical approaches for this project:
 
 **Background Reading:**
-- [e.g., Link to an article or blog post about the problem domain]
-- [e.g., Link to an industry report or case study]
+- [Link to an article or blog post about the problem domain]
+- [Link to an industry report or case study]
 
 **Technical Tutorials:**
-- [e.g., Link to a free tutorial on the ML technique(s) involved]
-- [e.g., Link to documentation for a key library or tool]
+- [Link to a free tutorial on the ML technique(s) involved]
+- [Link to documentation for a key library or tool]
 
 **Code Examples:**
-- [e.g., Link to a relevant GitHub repo]
-- [e.g., Link to a sample implementation or starter code]
+- [Link to a relevant GitHub repo]
+- [Link to a sample implementation or starter code]
 
 **Other:**
 - [Links to any additional resources — e.g., papers, videos, podcasts, etc.]
@@ -114,13 +135,13 @@ The following resources will help your team understand the problem space and pot
 ## 🤝 How We'll Work Together
 
 **Check-ins:** During our biweekly 60-min AI Studio Lab Section meeting block (2nd and 4th week of every month)  
-**Communication:** [e.g., Slack (Break Through Tech workspace) or email]  
-**Response time:** [e.g., Within 48 hours on weekdays]  
+**Communication:** Slack (Break Through Tech workspace) or email  
+**Response time:** Within 48 hours on weekdays  
 
 **Recommended Tools:**
-- **Coding:** [e.g., Google Colab, VS Code]
-- **Collaboration:** [e.g., GitHub, Notion]
-- **Virtual Meetings:** [e.g., Zoom, Google Meet]
+- **Coding:** Google Colab, VS Code
+- **Collaboration:** GitHub, Notion
+- **Virtual Meetings:** Zoom, Google Meet
 
 ---
 
@@ -130,10 +151,10 @@ The following resources will help your team understand the problem space and pot
 2. **Begin reviewing the dataset** using the link above
 3. **Read the GitHub Projects documentation** [here](https://docs.github.com/en/issues/planning-and-tracking-with-projects/learning-about-projects/about-projects)
 
-I’m excited to work with you!
+I'm excited to work with you!
 
 ---
 
 ## ❓ Questions?
 
-Please bring any questions to our first meeting during the week of August 24th (Break Through Tech’s Bridge to Studio - Session B). 
+Please bring any questions to our first meeting during the week of August 24th (Break Through Tech's Bridge to Studio - Session B).
